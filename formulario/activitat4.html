@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activitats - Amine Ettalydy</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon16.png">
+    <style>
+        .centrar{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 10%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulario de contacto</h1>
+    <fieldset class="centrar">
+        <label for="marca">Marca:</label><br>
+        <input type="text" id="marca" name="marca"><br>
+
+        <label for="modelo">Modelo:</label><br>
+        <input type="text" id="modelo" name="modelo"><br>
+
+        <label for="resolucion">Resolución Mínima (en megapíxeles):</label><br>
+        <input type="number" id="resolucion" name="resolucion" min="1"><br>
+
+        <label for="tipo">Tipo de Cámara:</label><br>
+        <select id="tipo" name="tipo">
+            <option value="dslr">DSLR</option>
+            <option value="mirrorless">Mirrorless</option>
+            <option value="compacta">Compacta</option>
+            <option value="instantanea">Instantánea</option>
+        </select><br><br>
+        <button type="submit">Buscar</button>
+    </fieldset>
+    
+    <a href="../index.html">Tornar al Índex</a>
+</html>
