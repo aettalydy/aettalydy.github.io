@@ -6,17 +6,32 @@
     <title>Home - Amine Ettalydy</title>
     <link rel="icon" type="image/png" sizes="16x16" href="html/img/favicon16.png">
     <style>
-        .activitats{
-            display: inline-block;
-            margin-left: 40px;
-            width: 30%;
-        }
+    
+      h1, h3 {
+        text-align: center;
+      }
+
+      .activitats {
+          display: flex;
+          flex-direction: column;
+          float: left;
+          margin: 0 20px;
+          width: calc(33% - 40px);
+          height: 300px;
+      }
+    a{
+        text-decoration: none;
+        transition: all 0.3s ease;
+    }
+    a:hover{
+        color: blueviolet;
+    }
     
     </style>
 </head>
 <body>
-    <h1 style="text-align: center;">Índex d'activitats CSS</h1>
-    <h3 style="text-align: center;"><a href="index.html">Tornar al Portafoli</a></h3>
+    <h1>Índex d'activitats CSS</h1>
+    <h3><a href="index.html">Tornar al Portafoli</a></h3>
     <div class="activitats">
         <h2>Bloc d'activitats 1: Selectores</h2>
          <ul>
