@@ -51,7 +51,8 @@ a{
 a:hover{
     color: #DB3069;
 }
-main{
+
+.main-container{
     display: flex;
     height: 70vh;
     width: 100%;
