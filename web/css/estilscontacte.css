@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    font-family: 'Poppins', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}       
+body{
+    background: rgb(74,52,154);
+    background: linear-gradient(146deg, rgba(74,52,154,1) 23%, rgba(56,17,66,1) 83%);
+    width: 100%;
+    min-height: 100vh;
+}
+h1{
+    font-size: 3rem;
+    margin-bottom: 15px;
+    color: #DB3069;
+}
+h3{
+    color: #D4F1F4;
+    font-weight: 400;
+    font-size: 1rem;
+}
+nav{
+    position: relative;
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    padding-right: 60px;
+}
+nav ul li{
+    width: 100%;
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: #3FE1FB;
+    text-decoration: none;
+    margin: 10px 20px;
+}
+a{
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+a:hover{
+    color: #DB3069;
+}
+
+.main-container{
+    display: flex;
+    height: 70vh;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+}
+form{
+    max-width:420px;
+    margin:50px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback-input {
+    color:white;
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border:2px solid #372772;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:100%;
+    box-sizing: border-box;
+    outline:0;
+}
+
+.feedback-input::placeholder {
+    color:#D4F1F4;
+}
+  
+.feedback-input:focus{ 
+    border:2px solid #CC4949; 
+}
+  
+textarea {
+    height: 150px;
+    line-height: 100%;
+    resize:vertical;
+    max-height: 180px;
+}
+
+
+[type="submit"] {
+    width: 100%;
+    background:#3A2449;
+    border-radius:5px;
+    border:0;
+    cursor:pointer;
+    color: #D4F1F4;
+    font-size:24px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:-4px;
+    font-weight:700;
+  }
+  [type="submit"]:hover { 
+    background: #D4F1F4; 
+    color: #372772;
+}
+
+footer{
+    height: 15vh;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+footer p{
+    color: #D4F1F4;
+}

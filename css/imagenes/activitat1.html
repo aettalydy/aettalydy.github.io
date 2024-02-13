@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activitats - Amine Ettalydy</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="../../html/img/favicon16.png">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+      
+      /*Estructura*/
+
+      * {
+        font-family: 'Poppins', serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }  
+
+      body {
+        display: flex;  
+        flex-direction: column;
+      }
+
+      main {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+      }
+
+      h1 {
+        text-align: center;
+        padding: 20px 0;
+        font-size: 25px;
+        font-weight: 300;
+      }
+
+      p {
+        color: #000;
+        font-size: 10px;
+      }
+
+      .container {
+        width: 100%;
+        height: 500px;
+        max-width: 350px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        padding: 0 10px;
+        border-radius: 12px;
+        background-color: #303030;
+      }
+
+      /*Contingut*/
+
+      .message {
+        width: 100%;
+        height: auto;
+        display: flex;
+        border-radius: 8px;
+        width: calc(100% - 30px);
+        background-color: #fff;
+      }
+
+      .m-left {
+        margin: 10px 30px 5px 0px;
+      }
+
+      .m-right {
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 10px 0px 5px 30px;
+      }
+
+      .m-right .content .info {
+        display: flex;
+        flex-direction: row-reverse;
+      }
+
+      img {
+        background-color: #f3f3f3;
+        width: 40px;
+        height: 40px;
+        margin: 5px;
+        object-fit: cover; 
+        object-position: center; 
+        border-radius: 50%;
+      }
+
+      .content {
+        width: calc(100% - 40px);
+        padding: 5px;
+        height: auto;
+      }
+
+      .info {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+      }
+
+      .info .name {
+        color: #000;
+      }
+
+      .info .date {
+        color: #c7c7c7;
+      }
+
+      /*Responsive*/
+
+      @media screen and (max-width: 360px) {
+        .container {
+          max-width: 100%;
+          margin: 0 10px;
+        }
+      }
+    </style>
+</head>
+<body>
+  <header>
+    <h1>Chat ficticio</h1>
+  </header> 
+  <main>  
+    <div class="container">
+      <div class="message m-right">
+        <img src="../../html/img/avatar1.jpg">
+        <div class="content">
+          <div class="info">
+            <p class="name">Sergi</p>
+            <p class="date">19:12</p>
+          </div>
+          <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+        </div>
+      </div>
+      <div class="message m-left">
+        <img src="../../html/img/avatar2.jpg">
+        <div class="content">
+          <div class="info">
+            <p class="name">Pau</p>
+            <p class="date">19:15</p>
+          </div>
+          <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, incidunt.</p>
+        </div>
+      </div>
+      <div class="message m-right">
+        <img src="../../html/img/avatar1.jpg">
+        <div class="content">
+          <div class="info">
+            <p class="name">Sergi</p>
+            <p class="date">19:24</p>
+          </div>
+          <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis officiis reprehenderit, quos est voluptate delectus ipsam aliquid expedita voluptates veritatis.</p>
+        </div>
+      </div>
+      <div class="message m-left">
+        <img src="../../html/img/avatar2.jpg">
+        <div class="content">
+          <div class="info">
+            <p class="name">Pau</p>
+            <p class="date">19:25</p>
+          </div>
+          <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus laudantium at esse ipsa officia! Dignissimos accusantium architecto asperiores doloribus modi, nam voluptatem? Vel, beatae voluptatibus.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <a href="../../activitatscss.html">Tornar al Índex</a>
+</body>
+</html>
