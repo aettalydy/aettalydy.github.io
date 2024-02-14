@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Canal de notícies d'Informàtica i més by Amine Ettalydy</title>
+  <link href="https://www.xataka.com/" />
+  <description>Les notícies sobre informàtica al teu costat.</description>
+  <entry>
+    <title>Els discos durs i SSD estan més barats que mai, però a Google, Microsoft i Dropbox no se n'han assabentat</title>
+    <link href="https://www.xataka.com/servicios/discos-duros-ssd-estan-baratos-que-nunca-google-no-se-han-enterado" />
+    <summary>Google, Microsoft, Dropbox o Amazon no han repercutido las rebajas de precios en sus clientes. Google One ha subido el precio de su plan de 2 TB al incluir Gemini Advanced, pero se puede contratar el servicio sin IA. Las cuentas cada vez salen peor para los usuarios, que tienen opciones locales como invertir en un NAS.</summary>
+    <author>Javier Pastor</author>
+    <published>2024-02-13T20:00:00Z</published>
+  </entry>
+  <entry>
+    <title>Los ciberdelincuentes están encantados con la IA: así la están utilizando según un estudio de Microsoft y OpenAI</title>
+    <link href="https://www.xataka.com/robotica-e-ia/ciberdelincuentes-estan-encantados-ia-asi-estan-utilizando-estudio-microsoft-openai" />
+    <summary>Desde crear malware más efectivo hasta mejorar las campañas de ingeniería social. Utilizar indebidamente servicios como ChatGPT puede tener consecuencias. OpenAI ha cerrado varias cuentas que, según explican, violaron su política de uso.</summary>
+    <author>Javier Marquez</author>
+    <updated>2024-02-15T21:03:00Z</updated>
+  </entry>
+  <entry>
+    <title>ChatGPT ahora tiene memoria y recordará cosas sobre nosotros en futuras conversaciones (si queremos)</title>
+    <link href="https://www.xataka.com/robotica-e-ia/chatgpt-ahora-tiene-memoria-recordara-cosas-nosotros-futuras-conversaciones-queremos" />
+    <summary>La IA recordará cierta información que le demos para mejorar sus futuras respuestas. La memoria se puede desactivar si así lo deseamos. Más adelante, llegará a los GPTs personalizados.</summary>
+    <author>Jose García</author>
+    <published>2024-02-15T11:01:00Z</published>
+  </entry>
+</feed>

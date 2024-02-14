@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+	    <title>Canal de notícies d'Informàtica i més by Amine Ettalydy</title>
+      <link>https://www.xataka.com/</link>
+			<description>Les notícies sobre informàtica al teu costat.</description>
+		<item>
+      <title>Els discos durs i SSD estan més barats que mai, però a Google, Microsoft i Dropbox no se n'han assabentat</title>
+      <link>https://www.xataka.com/servicios/discos-duros-ssd-estan-baratos-que-nunca-google-no-se-han-enterado</link>
+      <description>Google, Microsoft, Dropbox o Amazon no han repercutido las rebajas de precios en sus clientes
+      Google One ha subido el precio de su plan de 2 TB al incluir Gemini Advanced, pero se puede contratar el servicio sin IA
+      Las cuentas cada vez salen peor para los usuarios, que tienen opciones locales como invertir en un NAS</description>
+      <author>Javier Pastor</author>
+      <pubDate>Thu, 13 Feb 2024 20:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Los ciberdelincuentes están encantados con la IA: así la están utilizando según un estudio de Microsoft y OpenAI</title>
+      <link>https://www.xataka.com/robotica-e-ia/ciberdelincuentes-estan-encantados-ia-asi-estan-utilizando-estudio-microsoft-openai</link>
+      <description>Desde crear malware más efectivo hasta mejorar las campañas de ingeniería social
+      Utilizar indebidamente servicios como ChatGPT puede tener consecuencias
+      OpenAI ha cerrado varias cuentas que, según explican, violaron su política de uso</description>
+      <author>Javier Marquez</author>
+      <pubDate>Updated Wed, 15 Feb 2024 21:03:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>ChatGPT ahora tiene memoria y recordará cosas sobre nosotros en futuras conversaciones (si queremos)</title>
+      <link>https://www.xataka.com/robotica-e-ia/chatgpt-ahora-tiene-memoria-recordara-cosas-nosotros-futuras-conversaciones-queremos</link>
+      <description>La IA recordará cierta información que le demos para mejorar sus futuras respuestas.
+      La memoria se puede desactivar si así lo deseamos.
+      Más adelante, llegará a los GPTs personalizados.</description>
+      <author>Jose García</author>
+      <pubDate>Updated Wed, 15 Feb 2024 11:01:00 GMT</pubDate>
+    </item>
+	</channel>
+</rss>
